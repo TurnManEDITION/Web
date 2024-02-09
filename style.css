@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+body{
+	font-family: 'Helvetica Neue', sans-serif;
+	background: #0F143A;
+}
+
+.center {
+	text-align: center;
+	margin: 0;
+}
+
+h1{
+	color: #FFF;
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+.menu{
+	display: inline-block;
+	top: 10px;
+	background: rgba(0,0,0, 0.4);
+	border:  1px solid rgba(255,255,255, 1);
+}
+
+.menu > li{
+	float: left;
+	color: #FFF;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	
+	cursor: default;
+	font-size: 17px;
+	border-top-left-radius: 90 px;
+	border:  1px solid rgba(255,255,255, 0.2);
+}
+
+.menu li:hover {
+	background: rgba(0,0,0, 0.6);
+	color: #726CF3;
+}
+
+.sub-menu{
+	transform: scale(0);
+	transform-origin: top center;
+	transition: all 300ms ease-in-out;
+	border: 1px solid rgba(255,255,255, 1);
+}
+
+.sub-menu li{
+	font-size: 16px;
+	background: rgba(0,0,0, 0.4);
+	padding: 2px ;
+	color: #FFF;
+	border: 1px solid rgba(255,255,255, 0.1);
+	transform: scale(0);
+	transform-origin: top center;
+	transition: all 500ms ease-in-out;
+}
+
+.sub-menu li:last-child{
+	border-bottom: 0;
+}
+
+.sub-menu li:hover{
+	background: rgba(0,0,0, 0.6);
+	color: #726CF3;
+	cursor: pointer;
+}
+
+.menu > li:hover .sub-menu li{
+	transform: scale(1);
+}
+
+.menu > li:hover .sub-menu{
+	transform: scale(1);
+}
+
+.color-menu:hover {
+	color: #726CF3;
+}
+
+#oggmp3 {
+	width: 450px;
+	height: 758px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: 4px solid #000;
+}
+
+.sub-num li:hover{
+	background: rgba(0, 0, 0, .1);
+	cursor: pointer;
+	color: #FFF;
+}
+
+nav {
+	font-family: Pompadur, 'Comic Sans MS', cursive;
+}
+
+.cur-pointer:hover {
+	cursor: pointer;
+}
+
+.cur-help:hover {
+	cursor: help;
+}
+
+.cur-default:hover {
+	cursor: default;
+}
+
+
+
+
+
+
+
+
+
+.button {
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 10%;
+    transition-duration: .1s;
+}
+.button:hover {
+	padding: 18px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+	color: #4CAF50;
+	border: 3px solid #4CAF50;
+}
+.button:active {
+	color: #FF0000;
+	background-color: #000;
+	border: 3px solid #FF0000;
+}

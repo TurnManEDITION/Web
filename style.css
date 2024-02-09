@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 1080px) {
 	*{
 		margin: 0;
 		padding: 0;
@@ -17,7 +17,7 @@
 
 	.center {
 		text-align: center;
-		margin: 0;
+		margin: 0 auto;
 	}
 
 	h1{
@@ -39,12 +39,12 @@
 	.menu > li{
 		float: left;
 		color: #FFF;
-		width: 120px;
-		height: 25px;
-		line-height: 26px;
+		width: 60px;
+		height: 16px;
+		line-height: 13px;
 		
 		cursor: default;
-		font-size: 17px;
+		font-size: 12px;
 		border-top-left-radius: 90 px;
 		border:  1px solid rgba(255,255,255, 0.2);
 	}
@@ -62,7 +62,7 @@
 	}
 
 	.sub-menu li{
-		font-size: 16px;
+		font-size: 10px;
 		background: rgba(0,0,0, 0.4);
 		padding: 2px ;
 		color: #FFF;
@@ -129,18 +129,16 @@
 	    background-color: #4CAF50;
 	    color: #FFFFFF;
 	    border: 3px solid #FFFFFF;
-	    padding: 10px 35px;
+	    padding: 5px 29px;
 	    text-align: center;
 	    text-decoration: none;
-	    display: inline-flex;
-	    align-items: center;
-	    font-size: 20px;
+	    font-size: 10px;
 	    margin: 2px;
-	    width: 23%;
+	    width: 20%;
 	    transition-duration: .1s;
 	}
 	.button:hover {
-		padding: 9px;
+		padding: 4px;
 		cursor: pointer;
 		background-color: #FFFFFF;
 		color: #4CAF50;
